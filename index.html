@@ -1,0 +1,8 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>Tokyo Sunset — Life Simulator</title><link rel="stylesheet" href="/src/style.css"></head><body>
+<div id="game"><canvas id="scene"></canvas>
+<header><div class="brand"><span>東京</span><b>Tokyo Sunset</b></div><div id="clock">SUNDAY · 18:30</div></header>
+<aside id="sidebar"><div class="profile"><div class="portrait" id="portrait">あ</div><div><small>RELATIONSHIP</small><strong id="name">Akari</strong></div></div><div class="hearts" id="hearts"></div><div class="stat"><span>心の距離</span><b id="heartText">2 / 5</b></div><div class="divider"></div><h3>今日の予定</h3><ul id="quests"></ul></aside>
+<section id="dialogue"><div id="speaker"></div><p id="text"></p><div id="choices"></div></section>
+<nav id="locations"><button data-zone="street" class="active"><i>⌂</i><span>街</span></button><button data-zone="cafe"><i>☕</i><span>喫茶店</span></button><button data-zone="park"><i>♧</i><span>公園</span></button><button data-zone="apartment"><i>▦</i><span>自宅</span></button></nav>
+<div id="touch"><button id="left">◀</button><button id="right">▶</button></div>
+<div id="toast"></div></div><script type="module" src="/src/game.js"></script></body></html>
